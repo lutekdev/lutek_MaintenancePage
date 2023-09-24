@@ -4,6 +4,7 @@
 /* Configurando as Variaveis */
 :root {
   --vs-primary: 255 0 0;
+  --bg-url: url(../assets/background.jpg);
 }
 
 /* Customizando o Dialog */
@@ -44,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Poppins, sans-serif;
-  background: url(https://wallpaper.dog/large/20487399.jpg) no-repeat
+  background: var(--bg-url) no-repeat
     center center/cover;
 }
 
