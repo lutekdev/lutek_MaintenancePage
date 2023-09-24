@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maintenance Page</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="maintenanceBody">
+      <button class="maintenance-button1" onclick="window.dialog.showModal()">
+        Clique Aqui
+      </button>
+
+      <dialog id="dialog">
+        <h2>Olá Mestre!!!</h2>
+        <p>Sinto em lhe informar que meu site está em manutenção no Momento!</p>
+        <button onclick="window.dialog.close();" aria-label="close" class="x">
+          ❌
+        </button>
+      </dialog>
+    </div>
+  </body>
+</html>
